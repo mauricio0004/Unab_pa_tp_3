@@ -1,7 +1,7 @@
 # Unab_pa_tp_3
 Tarea de programacion 
 
-Ejercicio numero 2
+EJERCICIO NUMERO 2
 
 class Punto:
     def __init__(self, x, y):
@@ -40,3 +40,23 @@ p2 = p1.opuesto()
 print("Punto opuesto:", p2.impresion())
 
 print("Distancia al origen:", p1.distancia_origen())
+
+EJERCICIO NUMERO 4
+
+class Cancion:
+    
+    def __init__(self, titulo , autor):
+        self.titulo = titulo
+        self.autor = autor
+
+    def get_titulo(self):
+        return self.titulo
+    
+    def get_autor(self):
+        return self.autor
+    
+    def set_titulo(self, nuevotitulo):
+        self.titulo = nuevotitulo
+
+    def set_autor(self,nuevoautor):
+        self.autor = nuevoautor
