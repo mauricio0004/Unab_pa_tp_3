@@ -121,7 +121,6 @@ class Libro:
         self.pais = pais
         self.fecha = fecha
 
-    # Getters
     def get_titulo(self):
         return self.titulo
 
@@ -134,14 +133,13 @@ class Libro:
     def get_paginas(self):
         return self.paginas
 
-    # Setters
+
     def set_titulo(self, titulo):
         self.titulo = titulo
 
     def set_paginas(self, paginas):
         self.paginas = paginas
 
-    # Método para mostrar la información
     def mostrar_info(self):
         print(f"Título: {self.titulo} {self.edicion} edición")
         print(f"Autor: {self.autor}")
@@ -151,7 +149,7 @@ class Libro:
         print(f"{self.paginas} páginas")
 
 
-# ===== PRUEBA =====
+
 autor = Persona("Y. Daniel", "Liang")
 
 libro = Libro(
