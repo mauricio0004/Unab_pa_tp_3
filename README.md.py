@@ -1,6 +1,6 @@
 # Unab_pa_tp_3
 Tarea de programacion 
-integrantes: Mauri,Axel y Santi
+integrantes: Mauri,Alex y Santi
 
 EJERCICIO NUMERO 2
 
